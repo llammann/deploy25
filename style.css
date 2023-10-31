@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    margin-bottom: 0;
+}
+body {
+    background-color: black;
+}
+main {
+    /* background-color: rgb(60, 60, 60); */
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+/* PRODUCTS */
+.products {
+    /* background-color: rgb(53, 53, 101); */
+    width: 100%;
+    box-sizing: border-box;
+}
+/* .cards .card .img_wrapper {
+
+} */
+
+main .products .cards {
+    gap: 10px;
+    row-gap: 10px;
+    font-size: 15px;
+}
+main .products .row .card {
+    width: calc((100% - 30px) / 4);
+    max-height: max-content;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    border: none;
+}
+main .products .row .card .img_wrapper {
+width: 100%;
+height: 40%;
+}
+main .products .row .card .img_wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    }
+
+    main .products .row .card .articles p {
+margin: 2px;
+        }
+
+main .products .row .card .buttons {
+position: absolute;
+right: 17px;
+bottom: 17px;
+background-color: transparent;
+}
+main .products .row .card .buttons .fav_icon, .basket_icon {
+    background-color: transparent;
+    border: none;
+    }
+    main .products .row .card .buttons .basket_icon {
+        margin-right: 10px;
+        }
+
+
+
+
+
+
+/* RESPONSIBILITY */
+@media only screen and (max-width: 954px) {
+    /* main {
+      background-color: rgb(208, 49, 49);
+    } */
+    main .products .row .card {
+        width: calc((100% - 30px) / 3);
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    main .products .row .card {
+        width: calc((100% - 30px) / 2);
+    }
+  }
+
+.product {
+    background-color: rgb(218, 219, 218);
+    margin: 6px 0 6px 0;
+    padding: 6px 6px;
+}
+
+main .to_basket a {
+    text-decoration: none;
+}

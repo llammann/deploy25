@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./basket.css">
+</head>
+
+<body>
+    <main>
+        <div class="container mt-5">
+            <div class="basket_body">
+                <div class="articles">
+                    <h4>Shopping Cart</h4>
+                    <a href="#">Remove all</a>
+                </div>
+                <ul class="basketed_items">
+                    <li class="basket_item">
+                        <div class="img_wrappper">
+                            <img src="https://picsum.photos/200/300" alt="">
+                        </div>
+                        <div class="item_details">
+                            <h3 class="name">ITEM NAME</h3>
+                            <p class="category">CATEGORY</p>
+                            <p>$<span class="price">0</span>PRICE</p>
+                        </div>
+
+                        <div class="counter_details">
+                            <button class="plus btn btn-secondary"><i class="fa-solid fa-plus"></i></button>
+                            <span class="counter">0</span>
+                            <button class="minus btn btn-secondary"><i class="fa-solid fa-minus"></i></button>
+                        </div>
+
+                        <div class="buy_or_remove">
+                            <p>$ <span class="total_price">0</span>TOTAL PRICE</p>
+                            <a href="#">Save for later</a>
+                            <a href="#">Remove</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Sweet alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- JS -->
+    <!-- <script src="./basket.js"></script> -->
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    /* background-color: rgb(210, 170, 170);padding: 20px; */
+    width: 60%;
+}
+.articles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.basket_body {
+    background-color: rgb(187, 206, 176);
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 18px;
+}
+.basketed_items {
+    /* background-color: rgb(102, 109, 232); */
+    /* padding: 10px; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.basket_item {
+    display: flex;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.img_wrapper {
+    width: 20%;
+    height: 40px;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.item_details {
+    /* background-color: aliceblue; */
+margin: 6px;
+
+}
+.counter_details {
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    margin-right: 20px;
+}
+.counter_details button {
+/* width: 30px;
+height: 30px; */
+border-radius: 50%;
+margin: 6px;
+}
+.buy_or_remove {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+margin: 6px;
+
+}
+/* font size */
+.basket_item p,a,button,span {
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+.basket_item h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+/* font color */
+.articles a {
+color: red;
+}
+.buy_or_remove :nth-child(2) {
+    color: red;
+}
+.buy_or_remove :first-child {
+    color: blue;
+}
